@@ -79,15 +79,12 @@ const AddressSearch = () => {
 
   return isLoaded ? (
     <Box p={5}>
-      {/* Componente del título animado */}
       {mapLoaded && <AnimatedHeading />}
 
-      {/* Input de búsqueda con fuente personalizada */}
       <Autocomplete onLoad={onLoad} onPlaceChanged={onPlaceChanged}>
         <Input placeholder="Busca una dirección" mb={5} />
       </Autocomplete>
 
-      {/* Alerta con la dirección seleccionada */}
       {address && (
         <Alert status="success" mb={5} borderRadius="md">
           <AlertIcon />
@@ -95,7 +92,6 @@ const AddressSearch = () => {
         </Alert>
       )}
 
-      {/* Mapa Google */}
       <Box w="100%" h={{ base: "300px", md: "400px" }} mb={5}>
         <GoogleMap
           mapContainerStyle={mapContainerStyle}

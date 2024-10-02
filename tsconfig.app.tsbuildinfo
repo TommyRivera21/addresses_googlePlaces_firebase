@@ -1,0 +1,1 @@
+{"root":["./src/app.tsx","./src/main.tsx","./src/vite-env.d.ts","./src/components/addresssearch.tsx","./src/components/animatedheading.tsx","./src/services/firebaseconfig.ts","./src/utils/firebaseenvconfig.ts"],"version":"5.6.2"}
