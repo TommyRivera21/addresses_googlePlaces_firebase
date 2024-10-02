@@ -1,5 +1,7 @@
 # **Búsqueda de Direcciones y Autocompletado con Google Places & Firebase**
 
+## **Visita el proyecto ->** <a href="https://addresses-google-places-firebase.vercel.app/" target="_blank">Web</a>
+
 Este proyecto, desarrollado en **React** con **TypeScript**, implementa una funcionalidad de búsqueda de direcciones utilizando la **API de Google Places**. El sistema permite que los usuarios ingresen una dirección en un campo de búsqueda que ofrece sugerencias automáticas en tiempo real, gracias a la funcionalidad de autocompletado de Google.
 
 Una vez que el usuario selecciona una dirección, esta se guarda en una base de datos **Firestore** en **Firebase** para su posterior consulta o análisis.
